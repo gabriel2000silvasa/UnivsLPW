@@ -1,9 +1,31 @@
 h1{
     background-color: yellow;
     border-style: solid;
-    margin: 50px 30px 60px 70px;
-    padding: 20px;
-    width: 120px;
-    height: 80px;
+    padding: 100px;
+    text-align: center;
+}
+
+ul li{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ol li{
+    color: red;
+}
+
+a:hover{
+    color: purple;
+    font-style: 20px;
+}
+
+a:active{
+    color: yellow;
+    font-size: 25px;
+}
+
+a:visited{
+    color: gray;
+    font-size: 15px;
 }
 
